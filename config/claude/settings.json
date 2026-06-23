@@ -1,0 +1,7 @@
+{
+  "theme": "dark",
+  "statusLine": {
+    "type": "command",
+    "command": "starship statusline claude-code"
+  }
+}

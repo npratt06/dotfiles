@@ -1,0 +1,6 @@
+[alias]
+	st = status
+	a = add --all
+	cm = commit -m
+	pf = push --force
+	rh = reset --hard
