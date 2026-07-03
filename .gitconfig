@@ -2,6 +2,7 @@
 	st = status
 	a = add --all
 	cm = commit -m
+	# Sharp aliases: convenient, but review before use.
 	pf = push --force
 	rh = reset --hard
 	co = checkout

@@ -27,6 +27,8 @@ style = "bright-black"
 [git_status]
 format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
 style = "cyan"
+# Zero-width spaces keep the dirty-state indicator compact while preserving
+# Starship's status grouping behavior.
 conflicted = "​"
 untracked = "​"
 modified = "​"

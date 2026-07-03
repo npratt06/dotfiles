@@ -16,6 +16,10 @@ Terminal setup files for bootstrapping a macOS development machine.
 
 See [dev-setup.md](dev-setup.md) for the full setup notes and rationale.
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## New Machine Setup
 
 Install Homebrew first if it is not already installed:
@@ -27,7 +31,7 @@ Install Homebrew first if it is not already installed:
 Clone this repo:
 
 ```bash
-git clone git@github.com:your-username/dotfiles.git ~/Repos/dotfiles
+git clone https://github.com/npratt06/dotfiles.git ~/Repos/dotfiles
 cd ~/Repos/dotfiles
 ```
 
@@ -72,6 +76,8 @@ To apply everything except Claude Code settings:
 Existing destination files are backed up under `~/.dotfiles-backups/` before they are replaced. Git aliases are merged into `~/.gitconfig` so machine-specific sections like `[user]` and `[push]` are preserved.
 
 ## Notes
+
+Some Git aliases intentionally expose sharp operations like force-push and hard reset. Review `.gitconfig` before installing if you prefer safer aliases.
 
 This repo intentionally does not include Git identity settings such as `user.name` or `user.email`. Set those per machine:
 
