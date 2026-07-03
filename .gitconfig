@@ -4,3 +4,6 @@
 	cm = commit -m
 	pf = push --force
 	rh = reset --hard
+	co = checkout
+	cob = checkout -b
+	chm = checkout main
