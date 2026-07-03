@@ -31,7 +31,7 @@ Install Homebrew first if it is not already installed:
 Clone this repo:
 
 ```bash
-git clone https://github.com/npratt06/dotfiles.git ~/Repos/dotfiles
+git clone git@github.com:npratt06/dotfiles.git ~/Repos/dotfiles
 cd ~/Repos/dotfiles
 ```
 
